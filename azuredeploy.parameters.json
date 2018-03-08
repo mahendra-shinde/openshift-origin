@@ -15,7 +15,7 @@
 			"value": "Standard_DS2_v2"
 		},
 		"storageKind": {
-			"value": "Standrd_LRS"
+			"value": "managed"
 		},
 		"openshiftClusterPrefix": {
 			"value": "mahendra"
