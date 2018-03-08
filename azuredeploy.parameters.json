@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"_artifactsLocation": {
-			"value": "https://raw.githubusercontent.com/Microsoft/openshift-origin/master/"
+			"value": "https://raw.githubusercontent.com/mahendra-shinde/openshift-origin/master/"
 		},
 		"masterVmSize": {
 			"value": "Standard_DS2_v2"
@@ -15,28 +15,28 @@
 			"value": "Standard_DS2_v2"
 		},
 		"storageKind": {
-			"value": "changeme"
+			"value": "Standrd_LRS"
 		},
 		"openshiftClusterPrefix": {
-			"value": "changeme"
+			"value": "mahendra"
 		},
 		"masterInstanceCount": {
-			"value": 3
+			"value": 2
 		},
 		"infraInstanceCount": {
 			"value": 2
 		},
 		"nodeInstanceCount": {
-			"value": 1
+			"value": 3
 		},
 		"dataDiskSize": {
 			"value": 128
 		},
 		"adminUsername": {
-			"value": "changeme"
+			"value": "mahendra"
 		},
 		"openshiftPassword": {
-			"value": "changeme"
+			"value": "Password@123&"
 		},
 		"enableMetrics": {
 			"value": "false"
@@ -48,31 +48,31 @@
 			"value": "false"
 		},
 		"sshPublicKey": {
-			"value": "changeme"
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDjxJ1QxdpXXEDbLu9L2Z8AWRfES4tB8kIwnmF/SAC4ZSbY03JZnxlw7o2IRm3L+cX1PQMt+gWAfdt/Li0/+VcMjDH+n4hmjKDrYnucWtpwt/LJsHcIYvu0vbT5ULT9IzCeqFMZNkB5CuP92dqZiuy0n+QZEcCGvocAeIt7y7Jcb1NTc6J1K5IRPpBR7kvzXRq49eDu1LIj7GcSUlfA1BAPpZZS4nV8g9NZAVj0nbZ6xB0Que5cNFDes9gZOyoIBjFc1iHDNlwCk8WCzTln9SLQOat1qkhVbvwIQsawBhELi1PeqrrUw/3+Lr44LiwL7lDoyTH7wR09GDdu/fr7cEA3 mahendra@DESKTOP-18DLA8F"
 		},
 		"keyVaultResourceGroup": {
-			"value": "changeme"
+			"value": "rh-origins"
 		},
 		"keyVaultName": {
-			"value": "changeme"
+			"value": "mykyvault01"
 		},
 		"keyVaultSecret": {
-			"value": "changeme"
+			"value": "Pass@1234"
 		},
 		"enableAzure": {
 			"value": "false"
 		},
 		"aadClientId": {
-			"value": "changeme"
+			"value": "1cf7c502-4e2f-40da-8245-5d484b11a9c5"
 		},
 		"aadClientSecret": {
-			"value": "changeme"
+			"value": "Pass@1234"
 		},
 		"defaultSubDomainType": {
 			"value": "nipio"
 		},
 		"defaultSubDomain": {
-			"value": "changeme"
+			"value": "cluster"
 		}
 	}
 }
