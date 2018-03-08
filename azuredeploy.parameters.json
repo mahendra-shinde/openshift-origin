@@ -57,7 +57,7 @@
 			"value": "mykyvault01"
 		},
 		"keyVaultSecret": {
-			"value": "Pass@1234"
+			"value": "mySecret1"
 		},
 		"enableAzure": {
 			"value": "false"
